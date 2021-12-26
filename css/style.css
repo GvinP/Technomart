@@ -1,0 +1,232 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-darkblue: #32425c;
+  --basic-red: #ee3643;
+  --basic-green: #63a63e;
+  --basic-extra-darkblue: #293449;
+  --basic-white: #ffffff;
+  --basic-yellow: #ffbf47;
+  --basic-blue: #3bbce3;
+  --basic-violet: #dc91d8;
+  --basic-lightgreen: #8ed78f;
+  --basic-background: #f1f5f7;
+  --basic-gold: #ffd180;
+  --goods-border: #eaeaea;
+  --old-price: #a9a9a9;
+}
+
+/* Global */
+
+.page-body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-white);
+}
+a {
+  text-decoration: none;
+}
+.main-header {
+  background-color: var(--basic-darkblue);
+}
+.menu-button {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white);
+}
+.button {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+.cart {
+  list-style: none;
+}
+.site-navigation {
+  list-style: none;
+}
+.middle-header {
+  background-color: var(--basic-background);
+}
+.slogan {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+  color: var(--basic-red);
+}
+.contacts {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--basic-darkblue);
+}
+.phone {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--basic-red);
+  border: 3px solid var(--basic-white);
+}
+.link-login {
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-darkblue);
+  background-color: var(--basic-white);
+}
+.link-registration {
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-darkblue);
+  background-color: var(--basic-white);
+}
+.catalog-list h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.catalog-list li {
+  width: 300px;
+  height: 123px;
+}
+.materials {
+  background-color: var(--basic-yellow);
+}
+
+.tools {
+  background-color: var(--basic-blue);
+}
+
+.machineries {
+  background-color: var(--basic-violet);
+}
+
+.discount {
+  background-color: var(--basic-lightgreen);
+}
+
+.delivery {
+  background-color: var(--basic-yellow);
+}
+.catalog-button {
+  background-color: transparent;
+}
+.slider {
+  background-color: var(--basic-darkblue);
+  list-style: none;
+}
+.slider h3 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.goods h2, .manufacturers h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-darkblue);
+}
+.goods-item{
+  font-family: "PTSans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--basic-black);
+}
+.goods-list s {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--old-price);
+}
+.button-goods {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+.goods-list {
+  list-style: none;
+}
+.services {
+  color: var(--basic-darkblue);
+  background-color: var(--basic-background);
+}
+.service-item span {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.services h2, .services h3, .about-company h2, .map h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+.services p, .about-company p, .map p {
+  font-family: "PTSans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-black);
+}
+.about-company li {
+  color: var(--basic-black);
+}
+.footer-logo {
+  background-color: var(--basic-red);
+}
+.footer-top {
+  background-color: var(--basic-darkblue);
+}
+.footer-bottom {
+  font-size: 16px;
+  line-height: 18px;
+  background-color: var(--basic-extra-darkblue);
+}
+.footer-navigation {
+  list-style: none;
+}
+.footer-social {
+  list-style: none;
+}
+.footer-link {
+  color: var(--basic-gold);
+}
+.gold-button {
+  color: var(--basic-gold);
+}
+.footer-phone {
+  color: var(--basic-white);
+}
+.catalog-navigation-button {
+  font-family: "PTSans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+.filter-button {
+  font-family: "PTSans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+.filter-title {
+  font-family: "PTSans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
